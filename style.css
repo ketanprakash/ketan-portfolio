@@ -222,16 +222,19 @@ nav{
   justify-content: space-between;
 }
 .project-images{
-  width: 80%;
   /* margin: 0 50px; */
-  aspect-ratio: 19/9;
+  height: 500px;
+  width: fit-content;
+  overflow: hidden;
   background: white;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  background: url("https://ik.imagekit.io/ketanprakash001/Portfolio_assets/Screenshot_20210814_223133_mxT1V70CGKp.png?updatedAt=1628961790217");
   background-size: 100%;
 }
 
+.project-images > img{
+  height: 500px;
+}
 /* Hide scrollbar for Chrome, Safari and Opera */
 .about::-webkit-scrollbar, .skills::-webkit-scrollbar, .projects::-webkit-scrollbar {
   display: none;
