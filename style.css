@@ -1,0 +1,141 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+.invisible{
+  opacity: 0;
+}
+
+.does-not-exist{
+  display: none;
+}
+
+.visibility{
+  visibility: none;
+}
+
+a{
+  text-decoration: none; 
+  color: unset;
+}
+
+header{
+  height: 10vh;
+  /* background: rgba(221, 220, 220, 0.815); */
+  display: flex;
+  /* background: rgba(128, 128, 128, 0.74); */
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* color: #7DF9FF; */
+  border-bottom: solid gray 1px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+.name{
+  height: fit-content;
+  font-size: 1.5em;
+  /* background: blue; */
+}
+
+.contact-links{
+  height: fit-content;
+  height: 39px;
+  /* background: blue; */
+  /* background: green; */
+}
+
+.contact-image{
+  width: 32px;
+  height: 35px;
+  border-radius: 8%;
+  padding: 0px;
+  margin: 2px;
+  background: rgb(235, 235, 235);
+  /* margin: 5%; */
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.contact-image:hover{
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+
+.linkedin-image{
+  background: blue;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  border: black 1px solid;
+  /* height: 6vh; */
+}
+
+.nav-link{
+  font-size: 1.2em;
+  margin: 4px;
+  padding: 3px;
+  border: solid 1px white;
+  transition: 0.3s;
+}
+
+.nav-link:hover{
+  color: red;
+  cursor: pointer;
+  border: solid 1px red;
+}
+
+.nav-link-active{
+  color: red;
+  border: solid 1px red;
+}
+
+.nav-small{
+  display: none;
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+  /* background: blue; */
+}
+
+.nav-small img{
+  height: 35px;
+  width: 35px;
+}
+
+.about{
+  height: 90vh;
+  background: blue;
+}
+
+.projects{
+  height: 90vh;
+  background: green;
+}
+
+@media only screen and (max-width: 768px){
+  nav{
+    display: unset;
+    background: white;
+    position: absolute;
+    top: 10vh;
+    left: 50vw;
+    z-index: 10;
+  }
+  .nav-link{
+    margin: 5px;
+  }
+  .nav-small{
+    display: unset;
+    border: solid 1px black;
+  }
+  
+}
