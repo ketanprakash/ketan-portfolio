@@ -205,6 +205,17 @@ nav{
   color: rgb(207, 80, 80);
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.about::-webkit-scrollbar, .skills::-webkit-scrollbar, .projects::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.about, .skills, .projects {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 @media only screen and (max-width: 768px){
   nav{
     display: unset;
