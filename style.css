@@ -207,6 +207,7 @@ nav{
 
 .projects img{
   height: clamp(50px, 10%, 50px);
+  cursor: pointer;
 }
 
 .left-arrow{
@@ -221,7 +222,7 @@ nav{
   justify-content: space-between;
 }
 .project-images{
-  width: 70%;
+  width: 80%;
   /* margin: 0 50px; */
   aspect-ratio: 19/9;
   background: white;
