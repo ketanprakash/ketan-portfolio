@@ -96,7 +96,6 @@ nav{
   cursor: pointer;
   border: 2px rgb(207, 80, 80) solid;
   background: rgb(250, 250, 250);
-  box-shadow: 0 4px 8px 0 rgba(207, 80, 80, 0.2);
 }
 
 .nav-link-active{
