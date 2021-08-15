@@ -251,7 +251,7 @@ nav{
   scrollbar-width: none;  /* Firefox */
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 600px){
   nav{
     display: unset;
     background: white;
