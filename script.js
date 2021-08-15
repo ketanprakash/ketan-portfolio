@@ -70,11 +70,11 @@ arr = []
 let s0 = "https://ik.imagekit.io/ketanprakash001/Portfolio_assets/Screenshot_20210814_223133_mxT1V70CGKp.png?updatedAt=1628961790217";
 let s1 = "https://ik.imagekit.io/ketanprakash001/Portfolio_assets/Screenshot_20210814_223335_jq73qauGm.png?updatedAt=1628962480737"
 let s2 = "https://ik.imagekit.io/ketanprakash001/Portfolio_assets/Screenshot_20210814_223311_s8PUF7AtHLO.png?updatedAt=1628962482454";
-let s3 = "https://ik.imagekit.io/ketanprakash001/Portfolio_assets/Screenshot_20210814_232812_1QFo7HYvHBL.png?updatedAt=1628964013151";
-let s4 = "https://ik.imagekit.io/ketanprakash001/Portfolio_assets/Screenshot_20210814_232831_Ed48pfWR-.png?updatedAt=1628964012204";
-let s5 = "https://ik.imagekit.io/ketanprakash001/Portfolio_assets/Screenshot_20210814_232844_Q33x6PviT3Q.png?updatedAt=1628964011291";
-let s6 = "https://ik.imagekit.io/ketanprakash001/Portfolio_assets/Screenshot_20210814_232920_bVQ_W7eez.png?updatedAt=1628964010315";
-let s7 = "https://ik.imagekit.io/ketanprakash001/Portfolio_assets/Screenshot_20210814_232938_3va6WQ2aTjS.png?updatedAt=1628964009902";
+let s3 = "https://ik.imagekit.io/ketanprakash001/Portfolio_assets/Screenshot_20210814_232812.png";
+let s4 = "https://ik.imagekit.io/ketanprakash001/Portfolio_assets/Screenshot_20210814_232831.png";
+let s5 = "https://ik.imagekit.io/ketanprakash001/Portfolio_assets/Screenshot_20210814_232844.png";
+let s6 = "https://ik.imagekit.io/ketanprakash001/Portfolio_assets/Screenshot_20210814_232920.png";
+let s7 = "https://ik.imagekit.io/ketanprakash001/Portfolio_assets/Screenshot_20210814_232938.png";
 
 arr.push(s0);
 arr.push(s1);
